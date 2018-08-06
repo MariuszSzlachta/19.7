@@ -1,0 +1,22 @@
+.Comment {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  border: 2px solid black;
+  padding: 10px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.Comment__Vote {
+  font-weight: bold;
+}
+.btn {
+  border-radius: 4px;
+  background: transparent;
+  text-transform: lowercase;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1);
+}
+.btn:hover {
+  transform: scale(1.1);
+}
