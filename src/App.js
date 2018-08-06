@@ -1,10 +1,12 @@
 import React from 'react';
-import './App.css';
+import styles from './App.css'
 import CommentsList from './CommentsListContainer';
 
-const App = () => {
+const App = (props) => {
+  console.log(styles.App);
   return (
-    <div className="App">
+    <div className={styles.App}>
+      <button className={styles.btn} onClick={props.addComment}>Add Comment</button>
       <CommentsList />
     </div>
   );

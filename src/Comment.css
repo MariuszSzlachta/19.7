@@ -3,7 +3,9 @@
   justify-content: space-around;
   margin: 10px;
   border: 2px solid black;
+  border-radius: 4px;
   padding: 10px;
+  width: 90%;
   font-family: sans-serif;
   cursor: pointer;
 }
@@ -11,7 +13,9 @@
   font-weight: bold;
 }
 .btn {
+  border: 1px solid black;
   border-radius: 4px;
+  outline: 0;
   background: transparent;
   text-transform: lowercase;
   transition: transform 0.3s ease-in-out;
