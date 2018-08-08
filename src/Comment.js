@@ -12,3 +12,6 @@ const Comment = ({text, votes, id, thumbUpComment, thumbDownComment, editComment
 </li>)
 
 export default Comment;
+
+// Czy jakbym nie używał destrukturyzacji to było by tak:
+/* <button onClick={() => props.removeComment(id)} /> */

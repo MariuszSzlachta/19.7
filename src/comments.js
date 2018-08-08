@@ -1,6 +1,7 @@
 import {ADD_COMMENT, EDIT_COMMENT, REMOVE_COMMENT, THUMB_UP_COMMENT, THUMB_DOWN_COMMENT} from './actions';
 
 function comments(state = [], action) {
+  console.log(action);
   switch (action.type) {
 
     case ADD_COMMENT:
