@@ -1,11 +1,17 @@
-.App {
-  padding: 40px 0;
+.Comment {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  justify-content: space-around;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  width: 90%;
+  font-family: sans-serif;
+  cursor: pointer;
 }
-
+.Comment__Vote {
+  font-weight: bold;
+}
 .btn {
   border: 1px solid black;
   border-radius: 4px;
