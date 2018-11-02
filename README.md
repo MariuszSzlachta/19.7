@@ -1,3 +1,5 @@
+https://mariuszszlachta.github.io/Simple-blog/
+
 # React simple blog
 
 ## What's this?
